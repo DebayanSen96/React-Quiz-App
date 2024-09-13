@@ -1,0 +1,12 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    
+}
+.score-info {
+ 
+    margin: 2rem;
+  
+}

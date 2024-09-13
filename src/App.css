@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500:wght@200;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  text-align: center;
+}
+
+
+*::-webkit-scrollbar {
+  display: none;
+}
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+.App {
+  min-height: 100vh; /* Full viewport height */
+  height: auto;
+  padding: 10px;
+  background-color: #ffff04; /* Light yellow background */
+  background-image: linear-gradient(90deg, #f3f358 1px, transparent 1px),
+  linear-gradient(#f3f358 1px, transparent 1px);
+  background-size: 10px 10px; /* Size of the graph-paper boxes */
+}
+
+

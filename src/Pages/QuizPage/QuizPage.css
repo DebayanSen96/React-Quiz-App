@@ -1,0 +1,37 @@
+.quiz {
+    margin: auto 10rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 3rem;
+}
+.subtitle {
+    font-size: 1.2em;   
+    border: 1px solid black;
+    box-shadow: 4px 4px 2px black;
+    padding: 5px 10px;
+    margin-top: -20px;
+
+}
+.quiz-info {
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.category-info > h3{
+    margin-top: 18%;
+    align-self: center;
+}
+
+@media (max-width: 900px) {
+    .quiz{
+        margin: 0px;
+        margin-top: 2rem;
+    }
+}
